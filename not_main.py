@@ -8,7 +8,7 @@ from langchain.vectorstores import Chroma
 os.environ['OPENAI_API_KEY'] =''
 
 
-#llm = ChatOpenAI(openai_api_key= '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')
+#llm = ChatOpenAI(openai_api_key= '')
 
 #load our data
 loader = TextLoader("data.txt")
